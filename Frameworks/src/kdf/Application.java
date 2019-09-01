@@ -11,6 +11,7 @@ public class Application {
 	
 	@Test
 	public void verifyInvalidLogin() throws IOException {
+		//Making changes after r1.1
 		String[][] data = GenericMethods.getData("D:\\Sel4Aug\\TestData.xlsx", "Sheet2");
 		for(int i =1;i<data.length;i++) {
 			switch(data[i][3]) {
